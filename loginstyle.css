@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+#login-container {
+    background-color: #1D1F20;
+    margin: auto;
+    top: 25%;
+    width: 340px;
+    height: 445px;
+    border-radius: 2.5%;
+    text-align: center;
+}
+
+#register-container {
+    background-color: #1D1F20;
+    margin: auto;
+    top: 25%;
+    width: 340px;
+    height: 445px;
+    border-radius: 2.5%;
+    text-align: center;
+    align-items: center;
+}
+
+#heading {
+    position: relative;
+    width: 100%;
+}
+
+.input {
+    margin: auto;
+    background-color: #373b3d;
+    width: 240px;
+    border-radius: 4px;
+    padding: 8px 0px;
+    margin-top: 15px;
+}
+
+.icons {
+    background-color: #373b3d;
+    float: left;
+    border: 1px solid #373b3d;
+    padding: 4px 8px;
+    border-right: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+input[type=checkbox] {
+    cursor: pointer;
+}
+
+input[type=text] {
+    color: #ffffff;
+    margin: 0;
+    background-color: #929292;
+    border: 1px solid #ffffff;
+    padding: 6px 0px;
+    border-radius: 3px;
+}
+
+input[type=text]:focus {
+    border: 1px solid #373b3d;
+}
+
+input[type=email] {
+    color: #ffffff;
+    margin: 0;
+    background-color: #929292;
+    border: 1px solid #ffffff;
+    padding: 6px 0px;
+    border-radius: 3px;
+}
+
+input[type=email]:focus {
+    border: 1px solid #373b3d;
+}
+
+input[type=password] {
+    color: #ffffff;
+    margin: 0;
+    background-color: #929292;
+    border: 1px solid #ffffff;
+    padding: 6px 0px;
+    border-radius: 3px;
+}
+
+.forgot-password {
+    position: relative;
+    bottom: 0%;
+}
+
+.forgot-password a:link {
+    color: #c9c9c9;
+    text-decoration: none;
+}
+
+.forgot-password a:visited {
+    color: #c9c9c9;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    color: #FFF;
+    transition: color 1s;
+}
+
+.register {
+    margin: auto;
+    padding: 16px 0;
+    text-align: center;
+    margin-top: 40px;
+    width: 85%;
+    border-top: 1px solid #C1C3C6;
+}
+
+#register-link {
+    margin-top: 10px;
+    padding: 6px 25px;
+    background: #373E4A;
+    color: #C1C3C6;
+    font-weight: bold;
+    border: 0 none;
+    cursor: pointer;
+    border-radius: 3px;
+}
